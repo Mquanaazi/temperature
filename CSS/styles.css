@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(https://mquanaazi.github.io/huluImages/background.png);
+    background-size: cover;
+   
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        linear-gradient(rgb(140, 219, 140),
+            rgb(208, 31, 131));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container h1 {
+    color: rgb(128, 0, 98);
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+}
+
+.converter-row {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(194, 191, 39);
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+
+.col {
+    flex-basis: 32%;
+    text-align: center;
+}
+
+.col label {
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    color: #1e1288;
+}
+
+.col input {
+    width: 150px;
+    height: 30px;
+    background: white;
+    border-radius: 5px;
+    text-align: center;
+}
+@media screen and (max-width:300px) {
+   .converter-row {
+    display: flex;
+    width: 85%;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(194, 191, 39);
+    border-radius: 10px;
+    padding: 50px 20px;
+}
+.col input {
+    width: 50%;
+    height: 30px;
+    background: rgba(192, 188, 188, 0.812);
+    border-radius: 5px;
+    text-align: center;
+}}
